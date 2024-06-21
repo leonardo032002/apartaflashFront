@@ -1,0 +1,76 @@
+/* apto.css */
+
+.apto-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .apto-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .apto-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apto-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .apto-form {
+    margin: 10px 0;
+  }
+  
+  .apto-success-message {
+    color: green;
+    margin: 10px 0;
+  }
+  
+  .apto-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .apto-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .apto-button.create-button {
+    background-color: #28a745;
+  }
+  
+  .apto-button.create-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .apto-button.delete-button {
+    background-color: #dc3545;
+  }
+  
+  .apto-button.delete-button:hover {
+    background-color: #a71d2a;
+  }
+  
+  

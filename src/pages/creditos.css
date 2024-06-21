@@ -1,0 +1,90 @@
+/* Estilos para el formulario */
+.creditos-form {
+  text-align: center;
+  margin-top: 40px;
+  max-width: 400px;
+  margin: 0 auto; /* Para centrar horizontalmente */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Estilos generales */
+.creditos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  min-height: 100vh;
+}
+
+.creditos-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contenido de los créditos */
+.creditos-content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 40px; /* Espacio entre el formulario y el contenido de créditos */
+}
+
+.creditos-item {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.creditos-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.creditos-item p {
+  font-size: 1rem;
+}
+

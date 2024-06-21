@@ -1,0 +1,59 @@
+/* gestiona.css */
+.gestiona-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    min-height: 100vh;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan en dispositivos más pequeños */
+    justify-content: center; /* Centrar horizontalmente */
+  }
+  
+  .card {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Color de texto negro */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 250px; /* Ancho fijo para las tarjetas */
+    min-height: 200px; /* Altura mínima */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px; /* Espacio entre las tarjetas */
+  }
+  
+  .card-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-text {
+    display: none;
+    font-size: 1rem;
+  }
+  
+  .card-link:hover .card-text {
+    display: block;
+  }
+  

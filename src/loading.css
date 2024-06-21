@@ -1,0 +1,37 @@
+/* Estilos para el contenedor principal */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el icono */
+.loading {
+  margin-bottom: 10px; /* Separación entre el icono y el texto */
+}
+
+/* Estilos para el texto con animación */
+.loading-text {
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+  font-size: 24px; /* Tamaño de fuente */
+  color: #333; /* Color del texto */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  animation: bounce 2s infinite; /* Aplica la animación 'bounce' al texto */
+}
+
+/* Define la animación 'bounce' */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Posición inicial y final */
+  }
+  50% {
+    transform: translateY(-5px); /* Posición máxima hacia arriba */
+  }
+}
+
+
+  
+ 
+  

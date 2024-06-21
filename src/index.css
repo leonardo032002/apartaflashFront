@@ -1,0 +1,96 @@
+/* Fondo global */
+/* Fondo global */
+body {
+  background-color: #e1dcdc;
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* Fuente tipográfica personalizada */
+h1, h2 {
+  font-family: 'Cursive Font', cursive;
+}
+
+/* Estilo de los botones */
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agregar una transición suave */
+}
+
+/* Fondos de botones */
+.button-page1 {
+  background-color: #007bff; /* Fondo azul */
+}
+
+.button-page2 {
+  background-color: #28a745; /* Fondo verde */
+}
+
+/* Cambiar el color de fondo de los botones al pasar el ratón sobre ellos */
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Cambiar el color de fondo de los botones al pasar el ratón sobre ellos */
+button:hover {
+  background-color: #0056b3;
+}
+/* Estilos para la página 1 */
+.page1 {
+  background-color: #ffcccb; /* Fondo rosa claro */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/* Estilos para la página 2 */
+.page2 {
+  background-color: #c2f0c2; /* Fondo verde claro */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+/* Estilos para la página 1 */
+.page1 {
+  background-color: #000; /* Fondo negro */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Color del texto blanco */
+}
+
+.description {
+ 
+  margin-top: 50px; /* Agrega espacio hacia abajo */
+}
+
+.description h3 {
+  font-size: 1.5rem;
+}
+
+.description p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.description li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}

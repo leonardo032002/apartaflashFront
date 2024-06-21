@@ -1,0 +1,143 @@
+/* recibo.css */
+.recibo-container {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recibo-form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Cambia el ancho al 100% */
+  max-width: 500px;
+  margin: 0 auto; /* Centra horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra verticalmente */
+}
+
+.recibo-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navigation button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.navigation button:last-child {
+  margin-right: 0;
+}
+
+.navigation button:hover {
+  background-color: #0056b3;
+}
+
+.recibo-form h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#cliente-success-message {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#cliente-button, .recibo-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  /* Centrar horizontal y verticalmente */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#cliente-button:hover, .recibo-button:hover {
+  background-color: #0056b3;
+}
+
+#cliente-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recibo-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.recibo-button {
+  margin-right: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+}
+
+.dynamic-width {
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+.recibo-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  margin-left: auto;
+}

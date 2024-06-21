@@ -1,0 +1,68 @@
+/* Consultas.css */
+
+.consulta-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .query-container {
+    margin-bottom: 30px;
+  }
+  
+  .query-result {
+    margin-top: 10px;
+  }
+  
+  .client-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .client-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+  }
+  .resultados-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resultado-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .resultado-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 45%; /* Ajusta el ancho de cada columna según tu diseño */
+  }
+  

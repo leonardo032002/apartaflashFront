@@ -1,0 +1,42 @@
+.display-4 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para el párrafo de la descripción */
+.container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Estilos para centrar el contenido */
+.row {
+  text-align: center;
+}
+
+/* Estilos para el margen superior */
+.mt-4 {
+  margin-top: 2rem;
+}
+
+/* Estilos para los div coloreados */
+.colored-div {
+  background-color: #f0f0f0; /* Color de fondo base */
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.5s; /* Transición suave del color de fondo */
+}
+  
+.colored-div:hover {
+  background-color: #d9d9d9; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: rgb(230, 248, 255);
+  transition: background-color 0.3s;
+  color: white;
+  padding: 20px 0;
+  margin-top: 120px; /* Aumentamos el margen superior para separar más el footer */
+}
